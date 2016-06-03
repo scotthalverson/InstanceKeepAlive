@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2016-06-03 14:59:48">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<application_name>Instance Keep Alive</application_name>
+<application_scope>x_9026_instance_ke</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description> </description>
+<inserted/>
+<name>Instance Keep Alive</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>95c9ffd94f77520056357ab28110c71c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>29d93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_92a2be894fbf120056357ab28110c757</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-02 15:10:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>92a2be894fbf120056357ab28110c757</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RESTResponseV2</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_privilege_92a2be894fbf120056357ab28110c757</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-02 15:10:20</sys_updated_on><target_name>RESTResponseV2</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>21d93fd94f77520056357ab28110c794</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>RESTResponseV2</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_4bedae094fbf120056357ab28110c7ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>log</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><logo/><menu/><name>Instance Keep Alive</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_9026_instance_ke</scope><scoped_administration>false</scoped_administration><short_description/><source>x_9026_instance_ke</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-02 14:49:39</sys_created_on><sys_id>4bedae094fbf120056357ab28110c7ed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-02 14:49:39</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>2dd93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>Instance Keep Alive</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_ff0c42954ff3520056357ab28110c711</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-03 07:00:10</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ff0c42954ff3520056357ab28110c711</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_script</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_privilege_ff0c42954ff3520056357ab28110c711</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-03 07:00:10</sys_updated_on><target_name>sys_script</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>61d93fd94f77520056357ab28110c794</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>sys_script</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_0ea2be894fbf120056357ab28110c756</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-02 15:10:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0ea2be894fbf120056357ab28110c756</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RESTMessageV2</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_privilege_0ea2be894fbf120056357ab28110c756</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-02 15:10:20</sys_updated_on><target_name>RESTMessageV2</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>6dd93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>RESTMessageV2</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_table_access_e70c42954ff3520056357ab28110c711</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_table_access"><sys_scope_table_access action="INSERT_OR_UPDATE"><create_access>false</create_access><delete_access>false</delete_access><example_stack_trace>glide.scheduler.worker.0
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsTo(ScopedTableAccess.java:93)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsToTable(ScopedTableAccess.java:40)
+	com.glide.script.fencing.ScopedGlideRecord.getScopeAccessStatusForTable(ScopedGlideRecord.java:229)
+	com.glide.script.fencing.ScopedGlideRecord.checkOperationPermitted(ScopedGlideRecord.java:211)
+	com.glide.script.fencing.ScopedGlideRecord.jsFunction_get(ScopedGlideRecord.java:176)
+	sun.reflect.GeneratedMethodAccessor1187.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:497)
+	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:637)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
+	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	org.mozilla.javascript.gen._refname__2146._c_updateBizRule_1(&lt;refname&gt;:5)
+	org.mozilla.javascript.gen._refname__2146.call(&lt;refname&gt;)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	org.mozilla.javascript.gen._refname__2146._c_script_0(&lt;refname&gt;:1)
+	org.mozilla.javascript.gen._refname__2146.call(&lt;refname&gt;)
+	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
+	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
+	org.mozilla.javascript.gen._refname__2146.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__2146.exec(&lt;refname&gt;)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:64)
+	com.glide.script.Evaluator.evaluateString(Evaluator.java:91)
+	com.snc.automation.ScriptJob.execute(ScriptJob.java:38)
+	com.glide.schedule.JobExecutor.execute(JobExecutor.java:83)
+	com.glide.schedule.GlideScheduleWorker.executeJob(GlideScheduleWorker.java:204)
+	com.glide.schedule.GlideScheduleWorker.process(GlideScheduleWorker.java:142)
+	com.glide.schedule.GlideScheduleWorker.run(GlideScheduleWorker.java:59)
+</example_stack_trace><read_access>true</read_access><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><sys_class_name>sys_scope_table_access</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-03 07:00:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e70c42954ff3520056357ab28110c711</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_script</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_table_access_e70c42954ff3520056357ab28110c711</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-03 07:00:10</sys_updated_on><table_name>sys_script</table_name><target_scope display_value="Global">global</target_scope><write_access>false</write_access></sys_scope_table_access></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>a1d93fd94f77520056357ab28110c794</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>sys_script</target_name>
+<type>Scope Table Access</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_9e31b2894fbf120056357ab28110c7c4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;name&gt;Keep Alive 1&lt;/name&gt;&lt;run_as display_value="Scott Halverson"&gt;26c46f564f851a0056357ab28110c7ca&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2016-06-02 15:04:03&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[updateBizRule('89b072494fbf120056357ab28110c765');
+
+function updateBizRule(id) {
+	var gr = new GlideRecord('sys_script');
+	if (gr.get(id)) {
+		gr.script = gr.script + '\n //updated' + gs.nowDateTime();
+		gr.update();	
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;scott.halverson@maryville.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-02 15:05:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;9e31b2894fbf120056357ab28110c7c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Keep Alive 1&lt;/sys_name&gt;&lt;sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Instance Keep Alive"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_9e31b2894fbf120056357ab28110c7c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;scott.halverson@maryville.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-02 15:05:48&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>a9d93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>Keep Alive 1</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_370c42954ff3520056357ab28110c712</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-03 07:00:10</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>370c42954ff3520056357ab28110c712</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedGlideRecord</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_privilege_370c42954ff3520056357ab28110c712</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-03 07:00:10</sys_updated_on><target_name>ScopedGlideRecord</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>add93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>ScopedGlideRecord</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_89b072494fbf120056357ab28110c765</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Keep Alive&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;scott.halverson@maryville.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-02 15:03:36&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;89b072494fbf120056357ab28110c765&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Keep Alive&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Instance Keep Alive"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_89b072494fbf120056357ab28110c765&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;scott.halverson@maryville.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-02 15:03:36&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=89b072494fbf120056357ab28110c765"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>e1d93fd94f77520056357ab28110c794</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table>incident</table>
+<target_name>Keep Alive</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_d7a1ba494fbf120056357ab28110c77b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;name&gt;Keep Alive 2&lt;/name&gt;&lt;run_as display_value="Scott Halverson"&gt;26c46f564f851a0056357ab28110c7ca&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period&gt;1970-01-01 00:15:00&lt;/run_period&gt;&lt;run_start&gt;2016-06-02 15:06:03&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;periodically&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[// Create a periodic scheduled job that runs the script block
+// below.  Ensure you set the endpoint to your instance name
+// and be sure the userid/password info you set for both
+// the basic auth and query parameters is correct
+// Set the interval to something less than 30 min...I set to 15min
+
+var instanceName = gs.getProperty('instance_name');
+var endPoint = "https://" + instanceName + ".service-now.com/login.do";
+
+var restMessage = new sn_ws.RESTMessageV2();
+restMessage.setBasicAuth("itil", "itil");
+restMessage.setHttpMethod("post");
+restMessage.setRequestHeader("Content-Type","application/xml");
+restMessage.setRequestHeader("User-Agent","Mozilla/5.0");
+restMessage.setEndpoint(endPoint);
+restMessage.setQueryParameter("user_name","itil");
+restMessage.setQueryParameter("user_password","itil");
+restMessage.setQueryParameter("sys_action","sysverb_login");
+restMessage.setQueryParameter("sysparm_login_url","navpage.do");
+restMessage.setQueryParameter("language_select","en");
+var response = restMessage.execute();
+
+gs.info("Ran Activity Script with error code of: "+ response.getErrorCode(),'tbd');
+//gs.info("response is: " + response.getBody(),'tbd');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;scott.halverson@maryville.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-02 15:10:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;d7a1ba494fbf120056357ab28110c77b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Keep Alive 2&lt;/sys_name&gt;&lt;sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Instance Keep Alive"&gt;4bedae094fbf120056357ab28110c7ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_d7a1ba494fbf120056357ab28110c77b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;scott.halverson@maryville.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-06-02 15:10:13&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>e9d93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>Keep Alive 2</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_86a2be894fbf120056357ab28110c756</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>scott.halverson@maryville.com</sys_created_by><sys_created_on>2016-06-02 15:10:20</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>86a2be894fbf120056357ab28110c756</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: properties</sys_name><sys_package display_value="Instance Keep Alive" source="x_9026_instance_ke">4bedae094fbf120056357ab28110c7ed</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Instance Keep Alive">4bedae094fbf120056357ab28110c7ed</sys_scope><sys_update_name>sys_scope_privilege_86a2be894fbf120056357ab28110c756</sys_update_name><sys_updated_by>scott.halverson@maryville.com</sys_updated_by><sys_updated_on>2016-06-02 15:10:20</sys_updated_on><target_name>Glide API: properties</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<remote_update_set display_value="Instance Keep Alive">29d93fd94f77520056357ab28110c793</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-03 14:59:48</sys_created_on>
+<sys_id>edd93fd94f77520056357ab28110c793</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-03 14:59:48</sys_updated_on>
+<table/>
+<target_name>Glide API: properties</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
