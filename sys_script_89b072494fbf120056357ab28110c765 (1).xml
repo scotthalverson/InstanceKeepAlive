@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-30 19:47:41">
+<sys_script action="INSERT_OR_UPDATE">
+<abort_action>false</abort_action>
+<access>package_private</access>
+<action_delete>false</action_delete>
+<action_insert>false</action_insert>
+<action_query>false</action_query>
+<action_update>false</action_update>
+<active>true</active>
+<add_message>false</add_message>
+<advanced>true</advanced>
+<change_fields>false</change_fields>
+<client_callable>false</client_callable>
+<collection>incident</collection>
+<condition/>
+<description/>
+<execute_function>false</execute_function>
+<filter_condition table="incident"/>
+<is_rest>false</is_rest>
+<message/>
+<name>Keep Alive</name>
+<order>100</order>
+<priority>100</priority>
+<rest_method display_value=""/>
+<rest_method_text/>
+<rest_service display_value=""/>
+<rest_service_text/>
+<rest_variables/>
+<role_conditions/>
+<script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);
+ //updated2018-01-31 14:32:30
+ //updated2018-02-01 00:00:06
+ //updated2018-02-02 00:00:09
+ //updated2018-02-03 00:00:11
+ //updated2018-02-04 00:00:02
+ //updated2018-02-05 00:00:04
+ //updated2018-02-06 00:00:07
+ //updated2018-02-07 00:00:06
+ //updated2018-02-08 00:00:05
+ //updated2018-02-09 00:00:05
+ //updated2018-02-10 00:00:05
+ //updated2018-02-11 00:00:01
+ //updated2018-02-12 00:00:00
+ //updated2018-02-13 00:00:05
+ //updated2018-02-14 00:00:04
+ //updated2018-02-15 00:00:10
+ //updated2018-02-16 00:00:08
+ //updated2018-02-17 00:00:01
+ //updated2018-02-19 07:48:06
+ //updated2018-02-20 00:00:06
+ //updated2018-02-21 00:00:04
+ //updated2018-02-22 00:00:07
+ //updated2018-02-23 00:00:04
+ //updated2018-02-24 00:00:08
+ //updated2018-02-25 00:00:05
+ //updated2018-02-26 00:00:06
+ //updated2018-02-27 00:00:04
+ //updated2018-02-28 00:00:00
+ //updated2018-03-01 00:00:04
+ //updated2018-03-02 00:00:07
+ //updated2018-03-03 00:00:02
+ //updated2018-03-04 00:00:05
+ //updated2018-03-05 00:00:03
+ //updated2018-03-06 00:00:08
+ //updated2018-03-07 00:00:10
+ //updated2018-03-08 00:00:09
+ //updated2018-03-09 00:00:04
+ //updated2018-03-10 00:00:04
+ //updated2018-03-11 00:00:06
+ //updated2018-03-12 00:00:09
+ //updated2018-03-13 00:00:03
+ //updated2018-03-14 00:00:02
+ //updated2018-03-15 00:00:02
+ //updated2018-03-16 00:00:07
+ //updated2018-03-17 00:00:04
+ //updated2018-03-18 00:00:07
+ //updated2018-03-19 00:00:08
+ //updated2018-03-20 00:00:09
+ //updated2018-03-21 00:00:01
+ //updated2018-03-22 00:00:06
+ //updated2018-03-23 00:00:07
+ //updated2018-03-24 00:00:04
+ //updated2018-03-25 00:00:00
+ //updated2018-03-26 00:00:05
+ //updated2018-03-27 00:00:09
+ //updated2018-03-28 00:00:07
+ //updated2018-03-29 00:00:04
+ //updated2018-03-30 00:00:06
+ //updated2018-03-31 00:00:00
+ //updated2018-04-01 00:00:04
+ //updated2018-04-02 00:00:03
+ //updated2018-04-03 00:00:10
+ //updated2018-04-04 00:00:02
+ //updated2018-04-05 00:00:01
+ //updated2018-04-06 00:00:09
+ //updated2018-04-07 00:00:04
+ //updated2018-04-08 00:00:08
+ //updated2018-04-09 09:30:33
+ //updated2018-04-10 00:00:09
+ //updated2018-04-11 00:00:08
+ //updated2018-04-12 00:00:10
+ //updated2018-04-13 00:00:06
+ //updated2018-04-14 00:00:04
+ //updated2018-04-15 00:00:05
+ //updated2018-04-16 00:00:05
+ //updated2018-04-17 00:00:08
+ //updated2018-04-18 00:00:01
+ //updated2018-04-19 00:00:09
+ //updated2018-04-20 00:00:02
+ //updated2018-04-21 00:00:02
+ //updated2018-04-22 00:00:05
+ //updated2018-04-23 00:00:03
+ //updated2018-04-24 00:00:03
+ //updated2018-04-25 00:00:06
+ //updated2018-04-26 00:00:05
+ //updated2018-04-27 00:00:07
+ //updated2018-04-28 00:00:08
+ //updated2018-04-29 00:00:05
+ //updated2018-04-30 00:00:07
+ //updated2018-05-01 00:00:06
+ //updated2018-05-02 00:00:06
+ //updated2018-05-03 00:00:03
+ //updated2018-05-04 00:00:08
+ //updated2018-05-05 00:00:02
+ //updated2018-05-06 00:00:00
+ //updated2018-05-07 00:00:01
+ //updated2018-05-08 00:00:02
+ //updated2018-05-09 00:00:02
+ //updated2018-05-10 00:00:09
+ //updated2018-05-11 00:00:00
+ //updated2018-05-12 00:00:08
+ //updated2018-05-13 00:00:03
+ //updated2018-05-14 00:00:12
+ //updated2018-05-15 00:00:04
+ //updated2018-05-16 00:00:03
+ //updated2018-05-17 00:00:10
+ //updated2018-05-18 00:00:05
+ //updated2018-05-19 00:00:04
+ //updated2018-05-20 00:00:05
+ //updated2018-05-21 00:00:03
+ //updated2018-05-22 00:00:03
+ //updated2018-05-23 00:00:09
+ //updated2018-05-24 00:00:08
+ //updated2018-05-25 00:00:07
+ //updated2018-05-26 00:00:04
+ //updated2018-05-27 00:00:03
+ //updated2018-05-28 00:00:03
+ //updated2018-05-29 00:00:05
+ //updated2018-05-30 00:00:10
+ //updated2018-05-31 00:00:07
+ //updated2018-06-01 00:00:02
+ //updated2018-06-02 00:00:05
+ //updated2018-06-03 00:00:09
+ //updated2018-06-04 00:00:10
+ //updated2018-06-05 00:00:05
+ //updated2018-06-06 00:00:03
+ //updated2018-06-07 00:00:04
+ //updated2018-06-08 00:00:05
+ //updated2018-06-09 00:00:07
+ //updated2018-06-10 00:00:09
+ //updated2018-06-11 00:00:08
+ //updated2018-06-12 00:00:04
+ //updated2018-06-13 00:00:05
+ //updated2018-06-14 00:00:00
+ //updated2018-06-15 00:00:02
+ //updated2018-06-16 00:00:04
+ //updated2018-06-17 00:00:10
+ //updated2018-06-18 00:00:01
+ //updated2018-06-19 00:00:00
+ //updated2018-06-20 00:00:06
+ //updated2018-06-21 00:00:07
+ //updated2018-06-22 00:00:05
+ //updated2018-06-23 00:00:03
+ //updated2018-06-24 00:00:09
+ //updated2018-06-25 00:00:09
+ //updated2018-06-26 00:00:05
+ //updated2018-06-27 00:00:01
+ //updated2018-06-28 00:00:03
+ //updated2018-06-29 00:00:07
+ //updated2018-06-30 00:00:00
+ //updated2018-07-01 00:00:09
+ //updated2018-07-02 00:00:03
+ //updated2018-07-03 00:00:04
+ //updated2018-07-04 00:00:00
+ //updated2018-07-05 00:00:09
+ //updated2018-07-06 00:00:07
+ //updated2018-07-07 00:00:00
+ //updated2018-07-08 00:00:02
+ //updated2018-07-09 00:00:05
+ //updated2018-07-10 00:00:10
+ //updated2018-07-11 00:00:06
+ //updated2018-07-12 00:00:07
+ //updated2018-07-13 00:00:06
+ //updated2018-07-14 00:00:05
+ //updated2018-07-15 00:00:04
+ //updated2018-07-16 00:00:04
+ //updated2018-07-17 00:00:02
+ //updated2018-07-18 00:00:03
+ //updated2018-07-19 00:00:06
+ //updated2018-07-20 00:00:00
+ //updated2018-07-21 00:00:08
+ //updated2018-07-22 00:00:05
+ //updated2018-07-23 00:00:02
+ //updated2018-07-24 00:00
+ //updated2018-07-25 00:00
+ //updated2018-07-26 00:00
+ //updated2018-07-27 00:00
+ //updated2018-07-28 00:00
+ //updated2018-07-29 00:00
+ //updated2018-07-30 11:05]]></script>
+<sys_class_name>sys_script</sys_class_name>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-02 15:03:36</sys_created_on>
+<sys_customer_update>true</sys_customer_update>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>89b072494fbf120056357ab28110c765</sys_id>
+<sys_mod_count>180</sys_mod_count>
+<sys_name>Keep Alive</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="">4bedae094fbf120056357ab28110c7ed</sys_package>
+<sys_policy/>
+<sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+<sys_scope display_value="">4bedae094fbf120056357ab28110c7ed</sys_scope>
+<sys_update_name>sys_script_89b072494fbf120056357ab28110c765</sys_update_name>
+<sys_updated_by>system</sys_updated_by>
+<sys_updated_on>2018-07-30 18:05:04</sys_updated_on>
+<template/>
+<when>before</when>
+</sys_script>
+</unload>

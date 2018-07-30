@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-30 19:48:20">
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<condition/>
+<conditional>false</conditional>
+<name>Keep Alive 1</name>
+<run_as display_value="">26c46f564f851a0056357ab28110c7ca</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2016-06-02 15:04:03</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>daily</run_type>
+<script><![CDATA[updateBizRule('89b072494fbf120056357ab28110c765');
+
+function updateBizRule(id) {
+	var gr = new GlideRecord('sys_script');
+	if (gr.get(id)) {
+		gr.script = gr.script + '\n //updated' + gs.nowDateTime();
+		gr.update();	
+	}
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-02 15:05:48</sys_created_on>
+<sys_customer_update>true</sys_customer_update>
+<sys_id>9e31b2894fbf120056357ab28110c7c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Keep Alive 1</sys_name>
+<sys_package display_value="">4bedae094fbf120056357ab28110c7ed</sys_package>
+<sys_policy/>
+<sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+<sys_scope display_value="">4bedae094fbf120056357ab28110c7ed</sys_scope>
+<sys_update_name>sysauto_script_9e31b2894fbf120056357ab28110c7c4</sys_update_name>
+<sys_updated_by>scott.halverson@maryville.com</sys_updated_by>
+<sys_updated_on>2016-06-02 15:05:48</sys_updated_on>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+</unload>

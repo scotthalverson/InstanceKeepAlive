@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-07-30 19:48:36">
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<condition/>
+<conditional>false</conditional>
+<name>Keep Alive 2</name>
+<run_as display_value="">26c46f564f851a0056357ab28110c7ca</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period>1970-01-01 00:15:00</run_period>
+<run_start>2016-06-02 15:06:03</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>periodically</run_type>
+<script><![CDATA[// Create a periodic scheduled job that runs the script block
+// below.  Ensure you set the endpoint to your instance name
+// and be sure the userid/password info you set for both
+// the basic auth and query parameters is correct
+// Set the interval to something less than 30 min...I set to 15min
+
+var instanceName = gs.getProperty('instance_name');
+var endPoint = "https://" + instanceName + ".service-now.com/login.do";
+
+var restMessage = new sn_ws.RESTMessageV2();
+restMessage.setBasicAuth("itil", "itil123456789");
+restMessage.setHttpMethod("post");
+restMessage.setRequestHeader("Content-Type","application/xml");
+restMessage.setRequestHeader("User-Agent","Mozilla/5.0");
+restMessage.setEndpoint(endPoint);
+restMessage.setQueryParameter("user_name","itil");
+restMessage.setQueryParameter("user_password","itil123456789");
+restMessage.setQueryParameter("sys_action","sysverb_login");
+restMessage.setQueryParameter("sysparm_login_url","navpage.do");
+restMessage.setQueryParameter("language_select","en");
+var response = restMessage.execute();
+
+gs.info("Ran Activity Script with error code of: "+ response.getErrorCode(),'tbd');
+//gs.info("response is: " + response.getBody(),'tbd');]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>scott.halverson@maryville.com</sys_created_by>
+<sys_created_on>2016-06-02 15:10:13</sys_created_on>
+<sys_customer_update>true</sys_customer_update>
+<sys_id>d7a1ba494fbf120056357ab28110c77b</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Keep Alive 2</sys_name>
+<sys_package display_value="">4bedae094fbf120056357ab28110c7ed</sys_package>
+<sys_policy/>
+<sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+<sys_scope display_value="">4bedae094fbf120056357ab28110c7ed</sys_scope>
+<sys_update_name>sysauto_script_d7a1ba494fbf120056357ab28110c77b</sys_update_name>
+<sys_updated_by>scott.halverson@mattersight.com</sys_updated_by>
+<sys_updated_on>2018-04-09 18:54:02</sys_updated_on>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+</unload>
