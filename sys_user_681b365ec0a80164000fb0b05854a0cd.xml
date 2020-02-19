@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2020-02-19 00:41:53">
+<sys_user action="INSERT_OR_UPDATE">
+<active>true</active>
+<agent_status/>
+<avatar>76dff8383730310042106710ce41f1a4</avatar>
+<average_daily_fte/>
+<building display_value=""/>
+<calendar_integration>1</calendar_integration>
+<city/>
+<company display_value="ACME North America">31bea3d53790200044e0bfc8bcbe5dec</company>
+<correlation_id/>
+<cost_center display_value="Sales">7fb1cc99c0a80a6d30c04574d14c0acf</cost_center>
+<country/>
+<date_format/>
+<default_perspective display_value=""> 08743cf3c0a8016400627b5c1005</default_perspective>
+<department display_value="Sales">221db0edc611228401760aec06c9d929</department>
+<edu_status/>
+<email>itil@example.com</email>
+<employee_number/>
+<enable_multifactor_authn>false</enable_multifactor_authn>
+<failed_attempts>0</failed_attempts>
+<first_name>ITIL</first_name>
+<gender/>
+<geolocation_tracked>false</geolocation_tracked>
+<home_phone/>
+<hr_integration_source display_value=""/>
+<internal_integration_user>false</internal_integration_user>
+<introduction/>
+<last_login/>
+<last_login_device/>
+<last_login_time/>
+<last_name>User</last_name>
+<last_password/>
+<last_position_update/>
+<latitude/>
+<ldap_server display_value=""/>
+<location display_value="400 Pryor Street Southwest, Atlanta,GA">1081761cc611227501d063fd3475a2de</location>
+<locked_out>false</locked_out>
+<longitude/>
+<manager display_value=""/>
+<middle_name/>
+<mobile_phone/>
+<name>ITIL User</name>
+<notification>1</notification>
+<on_schedule/>
+<password_needs_reset>false</password_needs_reset>
+<phone/>
+<photo/>
+<preferred_language/>
+<roles>itil</roles>
+<schedule display_value=""/>
+<source/>
+<state/>
+<street/>
+<sys_class_name>sys_user</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2004-08-01 18:26:21</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>681b365ec0a80164000fb0b05854a0cd</sys_id>
+<sys_mod_count>11</sys_mod_count>
+<sys_updated_by>guest</sys_updated_by>
+<sys_updated_on>2019-05-20 21:47:03</sys_updated_on>
+<time_format/>
+<time_sheet_policy display_value=""/>
+<time_zone/>
+<title>IT Technician</title>
+<transaction_log/>
+<user_name>itil</user_name>
+<user_password>q3zDxMCcVS+IN10lIqXqFbR7W7Q=</user_password>
+<vip>false</vip>
+<web_service_access_only>false</web_service_access_only>
+<zip/>
+</sys_user>
+</unload>
